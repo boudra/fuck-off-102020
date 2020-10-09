@@ -1,0 +1,35 @@
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #893168;
+  height: 100vh;
+
+  .greeting {
+  }
+
+  > .form-box {
+    padding: 50px;
+    width: 80%;
+    max-width: 660px;
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+
+    h1 {
+      margin-top: 0;
+    }
+
+    button {
+      border-radius: 5px;
+      border: none;
+      color: #fff;
+      background: #0C7489;
+      padding: 10px;
+      font-weight: 600;
+      margin-top: 20px;
+    }
+  }
+}
+
